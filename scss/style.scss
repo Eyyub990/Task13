@@ -1,0 +1,22 @@
+.d-flex{
+    display: flex;
+}
+
+.d-flex.justify-content-center{
+    justify-content: center;
+}
+
+.header{
+    background-color: red;
+    color: white;
+    .header-top{
+        display: flex;
+        ul {
+            list-style: none;
+        }
+    }
+}
+.header .header-top ul {
+    list-style: none;
+}
+
