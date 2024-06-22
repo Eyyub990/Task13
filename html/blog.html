@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Blog</title>
     <script src="https://kit.fontawesome.com/1154e1d6ee.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./../assets/css/style.css">
 </head>
@@ -54,8 +54,8 @@
                         <li><a href="home.html">Home</a></li>
                         <li><a href="shop.html">Shop</a></li>
                         <li><a href="#">Pages</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li class="active"><a href="#">Contact</a></li>
+                        <li class="active"><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
                 <ul class="header-card d-flex align-items-center">
@@ -106,70 +106,128 @@
             </div>
         </div>
     </header>
-    <main>
         <section class="breadcrumb-section mt-30 d-flex flex-column align-items-center">
-            <h2>Contact</h2>
+            <h2>Blog</h2>
             <ul class="breadcrumb d-flex">
                 <li><a href="home.html">Home</a></li>
-                <li>Contact</li>
+                <li>Blog</li>
             </ul>
         </section>
-
-        <section class="contact mt-30 d-flex">
-            <div class="container justify-content-evenly">
-                <div class="contact-item d-flex flex-column align-items-center color=7fad39">
-                    <i class="fa fa-phone"></i>
-                    <h4 class="text" style="margin-top: 50px; margin-left: 10px;">Phone</h4>
-                    <p class="text-description" style="margin-top: 20px;">+01-3-8888-6868</p>
-                </div>
-                <div class="contact-item d-flex flex-column align-items-center">
-                    <i class="fa fa-map-pin"></i>
-                    <h4  class="text">Address</h4>
-                    <p class="text-description">60-49 Road 11378 New York</p>
-                </div>
-                <div class="contact-item d-flex flex-column align-items-center">
-                    <i class="fa fa-clock"></i>
-                    <h4 class="text">Open Time</h4>
-                    <p class="text-description">10:00 am to 23:00 pm</p>
-                </div>
-                <div class="contact-item d-flex flex-column align-items-center">
-                    <i class="fa fa-envelope"></i>
-                    <h4  class="text">Email</h4>
-                    <p class="text-description">hello@colorlib.com</p>
-                </div>
+    <main class="content">
+        <div class="sidebar">
+            <form action="#">
+                <input class="searchbar" type="text" placeholder="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+            <div class="category">
+                <h4 class="head">Categories</h4>
+            <ul>
+                <li class="categories-text"><a class="text-color" href="blog.html">All</a></li>
+                <li class="categories-text"><a class="text-color" href="blog.html">beauty(20)</a></li>
+                <li class="categories-text"><a class="text-color" href="blog.html">Food(5)</a></li>
+                <li class="categories-text"><a class="text-color" href="blog.html">Life Style(9)</a></li>
+                <li class="categories-text"><a class="text-color" href="blog.html">travel(10)</a></li>
+            </ul>
             </div>
-
-        </section>
-
-        <section class="map">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d189.96445631120585!2d49.853827507746736!3d40.3771326566825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d079efb5163%3A0xc20aa51a5f0b5e01!2sCode%20Academy!5e0!3m2!1saz!2saz!4v1713606097370!5m2!1saz!2saz"
-                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-
-        <section class="contact-form">
-            <div class="container flex-column align-items-center">
-                <h3>Leave Message</h3>
-                <form method="post" class="contact-form w-100">
-                    <div class="form-row w-100 d-flex">
-                        <div class="col">
-                            <input class="form-control" type="text" name="name" placeholder="FullName" />
+            <div>
+                <h4 class="head">Recents</h4>
+                <ul>
+                    <li class="item">
+                        <a class="d-flex" href="blog.html">
+                        <img class="img-size-small" src="../assets/images/sr-1.jpg" alt="">
+                        <div class="col-text">
+                        <div>09 Kinds of vegetables protect the liver</div>
+                        <div class="text-soft">Mar 05, 2019</div>
                         </div>
-                        <div class="col">
-                            <input class="form-control" type="email" name="email" placeholder="Email" />
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a class="d-flex" href="blog.html">
+                        <img class="img-size-small" src="../assets/images/sr-2.jpg" alt="">
+                        <div class="col-text">
+                        <div>Tips you to balance nutrition meal day</div>
+                        <div class="text-soft">Mar 05, 2019</div>
                         </div>
-                    </div>
-                    <div class="w-100">
-                        <textarea class="form-control" name="message" cols="30" rows="5"
-                            placeholder="Your message"></textarea>
-                    </div>
-                    <div class="w-100 d-flex justify-content-center">
-                        <button>Send</button>
-                    </div>
-                </form>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a class="d-flex" href="blog.html">
+                        <img class="img-size-small" src="../assets/images/sr-3.jpg" alt="">
+                        <div class="col-text">
+                        <div>4 Principles help you lose weight with vegetables</div>
+                        <div class="text-soft">Mar 05, 2019</div>
+                        </div>
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </section>
+            <div class="category">
+                <h4 class="head">Search By</h4>
+            <ul class="links">
+                <li class="link-size"><a href="blog.html">Apple</a></li>
+                <li class="link-size"><a href="blog.html">Beauty</a></li>
+                <li class="link-size"><a href="blog.html">Vegetables</a></li>
+                <li class="link-size"><a href="blog.html">Fruit</a></li>
+                <li class="link-size"><a href="blog.html">Healthy Food</a></li>
+                <li class="link-size"><a href="blog.html">Lifestyle</a></li>
+            </ul>
+            </div>
+        </div>
+        <div class="items">
+            <div class="item-size">
+                <img src="../assets/images/blog-1.jpg" width="360px" height="258.8px" alt="">
+                <div class="text-soft ">May 4, 2019</div>
+                <a href="blog.html" class="head">6 ways to prepare breakfast for 30</a>
+                <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+                <button class="btn-readmore"><a href="blog.html">READ MORE</a></button>
+            </div>
+            <div class="item-size">
+                <img src="../assets/images/blog-2.jpg" width="360px" height="258.8px" alt="">
+                <div class="text-soft ">May 4, 2019</div>
+                <a href="blog.html" class="head">Visit the clean farm in the US</a>
+                <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+                <button class="btn-readmore"><a href="blog.html">READ MORE</a></button>
+            </div>
+            <div class="item-size">
+                <img src="../assets/images/blog-3.jpg" width="360px" height="258.8px" alt="">
+                <div class="text-soft ">May 4, 2019</div>
+                <a href="blog.html" class="head">Cooking tips make cooking simple</a>
+                <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+                <button class="btn-readmore"><a href="blog.html">READ MORE</a></button>
+            </div>
+            
+            <div class="item-size">
+                <img src="../assets/images/blog-4.jpg" width="360px" height="258.8px" alt="">
+                <div class="text-soft ">May 4, 2019</div>
+                <a href="blog.html" class="head">Cooking tips make cooking simple</a>
+                <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+                <button class="btn-readmore"><a href="blog.html">READ MORE</a></button>
+            </div>
+            
+            <div class="item-size">
+                <img src="../assets/images/blog-5.jpg" width="360px" height="258.8px" alt="">
+                <div class="text-soft ">May 4, 2019</div>
+                <a href="blog.html" class="head">The Moment You Need To Remove Garlic From The Menu</a>
+                <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+                <button class="btn-readmore"><a href="blog.html">READ MORE</a></button>
+            </div>
+            
+            <div class="item-size">
+                <img src="../assets/images/blog-6.jpg" width="360px" height="258.8px" alt="">
+                <div class="text-soft ">May 4, 2019</div>
+                <a href="blog.html" class="head">Cooking tips make cooking simple</a>
+                <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+                <button class="btn-readmore"><a href="blog.html">READ MORE</a></button>
+            </div>
+              
+        <div class="page-numbers">
+            <div class="line"></div>
+            <btn class="btn-number">1</btn>
+            <btn class="btn-number">2</btn>
+            <btn class="btn-number">3</btn>
+            <btn class="btn-number">4</btn>
+        </div>
+        </div>
     </main>
     <footer>
         <div class="container">
@@ -235,5 +293,3 @@
         </div>
     </footer>
 </body>
-
-</html>
